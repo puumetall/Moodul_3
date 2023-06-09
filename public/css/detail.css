@@ -1,0 +1,134 @@
+/*HERO DETAIL STYLES*/
+.launch_detail{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url("../assets/launch_detail.png"); 
+  }
+  .jupiter_detail {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url("../assets/jupiter_detail.jpg");
+  }
+  .mars_detail {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url("../assets/mars_detail.jpg");
+  }
+  .saturn_detail {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url("../assets/saturn_detail.jpg");
+  }
+  .return_detail {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url("../assets/return_bg.png");
+  }
+  .detail_hero {
+    background-size: cover;
+    background-position: 50%;
+  }
+  .detail {
+    background-size: cover;
+    height: auto;
+    user-select: none;
+  }
+  .detail_title .BigTxT {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15rem;
+    mix-blend-mode: overlay;
+  }
+  .jupiter_detail .BigTxT {
+    mix-blend-mode: normal;
+    color: rgba(200, 200, 200, 0.608);
+  }
+  .detail h1{
+    opacity: 0.6;
+  }
+  .detail_content {
+    width: 70%;
+    height: 100%;
+  }
+  .detail_top_buffer{
+    padding-top: 15vw;
+  }
+/* END STYLES */
+/* MIDDLE DETAIL STYLES */
+.jupiter_middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url("../assets/jupiter_planet.png");
+  }
+  .launch_middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/spacecraft_bg.png");
+  }
+  .mars_middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../assets/mars_planet.jpg");
+  }.saturn_middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../assets/about_bg.png");
+  }
+  .return_middle {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("../assets/return_middle.jpg");
+  }
+  .detail_middle {
+    background-size: cover;
+    background-position: 50%;
+  }
+  
+  .detail_middle .BigTxT{
+    text-transform: uppercase;
+    color: rgb(188, 188, 188);
+    mix-blend-mode: overlay;
+    letter-spacing: 4rem;
+    text-indent: 4rem;
+  }
+  .jupiter_middle .BigTxT {
+    mix-blend-mode:lighten;
+    color: #dacdaa;
+  }
+  .mars_middle .BigTxT {
+    mix-blend-mode:lighten;
+    color: #dacdaa;
+  }
+  .saturn_middle .BigTxT {
+    mix-blend-mode:lighten;
+    color: #dacdaa;
+  }
+  .detail_middle h5 {
+    font-size: 1.6rem;
+  }
+  .detail_middle_content{
+    height: 800px;
+  }
+  .detail_middle_content h5 {
+    font-weight: bold;
+  }
+  .detail_middle_content p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+/* END STYLES */
+/* RESEARCH STYLES */
+.jupiter_research {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("../assets/jupiter_bg.png");
+  }
+  .launch_research {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("../assets/research_bg.png");
+  }
+  .mars_research {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("../assets/mars_research.png");
+  }
+  .saturn_research {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("../assets/saturn_research.jpg");
+  }
+  .research{
+    background-size: cover;
+  
+  }
+  .research_content{
+    width: 50vw;
+  }
+  .research_info h1{
+    font-size: 10rem;
+    opacity: 0.4;
+  }
+  .research_info h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    opacity: 0.4;
+  }
+  
+  .research_footer {
+    background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url("../assets/missionlog_bg.png");
+    background-size: cover;
+  }
+/* END STYLES */

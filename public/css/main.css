@@ -1,0 +1,450 @@
+/* START RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 3rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: white;
+}
+a {
+    text-decoration: none;
+    color: white !important;
+    font-family: "sol-pro", sans-serif;
+}
+a:hover{
+    color: white !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: white !important;
+}
+ol, ul {
+	list-style: none;
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+    color: white !important; 
+    height: 10px;
+}
+
+/* END RESET */
+/* START ANIMATION */
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes shining {
+    10% {
+      background-position: 0% 0%;
+      opacity: 1;
+      text-shadow: none;
+    }
+    25% {
+      background-position: 0% 0%;
+      opacity: 0.2;
+      text-shadow: none;
+    }
+    50% {
+      background-position: 100% 100%;
+      color: white;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+    75% {
+      background-position: 100% 100%;
+      color: white;
+      opacity: 1;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  
+    }
+    100%{
+      text-shadow: 0 0 0px rgba(255, 255, 255, 1);
+  
+    }
+  }
+  .shining-text {
+    background: linear-gradient(45deg, transparent, white);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shining 2s linear forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes shooting-star {
+    0% {
+      opacity: 0;
+      background-position: -200px -200px;
+    }
+    100% {
+      opacity: 1;
+      background-position: 200px 200px;
+    }
+  }
+  
+  .shooting-star-text {
+    animation: shooting-star 1s linear forwards;
+    background: linear-gradient(45deg, #fff, #ffdd00, #fff);
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+/* END ANIMATION */
+/* START TYPO */
+@import url("https://use.typekit.net/zki7ypa.css");
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: white;
+  font-family: "sol-pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: white;
+}
+
+p {margin-bottom: 1rem;
+    font-family: "sol-pro", sans-serif;}
+
+h1, h2, h3, h4, h5 {
+  font-family: "sol-pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.BigTxT {
+    margin-top: 0;
+  font-size: 7.594rem;
+  font-weight: bold;
+  color: rgba(159, 159, 159, 0.8);
+}
+.MissionTitle{
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.MissionNumber{
+    font-size: 30rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.6;
+    mix-blend-mode: overlay;
+    user-select: none;
+    line-height: 1;
+}
+h1 {
+text-transform: uppercase;
+  margin-top: 0;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {font-size: 4rem; font-weight: bold;}
+
+h3 {font-size: 3.4rem; font-weight: bold;}
+
+h4 {font-size: 2.5rem; font-weight: bold;}
+
+h5 {font-size: 1.3rem; }
+
+small, .text_small {font-size: 0.667rem;}
+/* END TYPO */
+/* START HERO STYLES */
+.bg{
+  background-image: url("../images/hero_bg.png");
+  background-size: cover;
+}
+.hero hr {
+    position:relative;
+    top: -1vw;
+}
+.hero_slogan {
+  animation-delay: 3s;
+}
+.hero_content {
+    width: 75%;
+    opacity: 0.8;
+}
+.hero_content_right {
+    text-transform: uppercase;
+    padding-bottom: 2vw;
+}
+.hero_content_right h3{
+    color: #EBD79F;
+    
+}
+.hero_top_buffer {
+    margin-top: 25vw;
+}
+.hero_footer{
+    position: relative;
+}
+.hero_content ul li {
+    position: relative;
+  }
+  
+.hero_content ul li .js-count {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2vw;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+  
+.hero_content ul li .js-count + h5 {
+    width: 100%;
+    text-align: center;
+}
+.navbar-brand img {
+    height: 3rem;
+}
+.hero_slogan .BigTxT{
+    text-transform: uppercase;
+    letter-spacing: 6.6rem;
+    text-indent:-0.8em;;
+    direction:rtl;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+h5 {
+  transition: opacity 0.5s ease;
+}
+
+/* END HERO STYLES */
+/* START ABOUT STYLES */
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about_bg.png");
+    background-size: cover;
+
+}
+.about_top_buffer{
+    padding-top: 10vw;
+}
+.about_title h1 {
+    opacity: 0.8;
+}
+.about_content h1 {
+    opacity: 0.6;
+}
+.about_content h5 {
+    font-weight: bold;
+}
+.about_content li {
+    width: 25%;
+}
+
+/* END ABOUT STYLES */
+/* START MIDDLE STYLES */
+
+/* END MIDDLE STYLES */
+/* START RESEARCH STYLES */
+
+/* END RESEARCH STYLES */
+/* START MISSION STYLES */
+.missionlog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/missionlog_bg.png");
+    background-size: 1920px auto;
+
+}
+.mission {
+    background-size: cover;
+    height: 800px;
+}
+.launch {
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),  url("../images/launch_bg.png");
+
+}
+.mars {
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/mars_bg.png");
+}
+.jupiter {
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/jupiter_bg.png");
+}
+.saturn {
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/saturn_bg.png");
+}
+.return {
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/return_bg.png");
+}
+.mission_title {
+    font-family: 'Roboto', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    color:transparent;
+    text-shadow:0px 15px 0 white;
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
+}
+.mission_left{
+    width: 30vw;
+}
+.mission_content p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.mission_footer{
+    text-decoration: underline;
+}
+.space_buffer{
+    margin-bottom: 10vw;
+}
+
+.mission_year {
+  position: absolute;
+  left: 7.5vw;
+  margin-top: 7vw;
+}
+
+.mission_year h4{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.active.left-right {
+  animation: shine 3s linear forwards;
+  overflow: hidden;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  80% {
+    background-position: -100%;
+  }
+  100%{
+    background-color: white;
+  }
+}
+/* START EMBLEM STYLES */
+
+.emblem {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/missionlog_bg.png");
+  background-size: cover;
+
+}
+.emblem_photo img {
+  height: 30vw;
+  width: auto;
+}
+.emblem_hr_top{
+  height: 1px ;
+  max-width: 800px;
+  text-align: right;
+}
+.hr_right {
+  margin-left: auto;
+}
+.hr_left{
+  margin-right: 0;
+}
+
+/* END EMBLEM STYLES */
+/* START FOOTER STYLES */
+.footer h5 {
+  font-weight: bold;
+}
+/* END FOOTER STYLES */
+
