@@ -1,0 +1,8 @@
+1. git clone https://github.com/puumetall/Moodul_3.git
+2. cd Moodul_3
+3. composer i and npm i
+4. cp .env.example .env
+5. Make a file named database.sqlite in database folder
+6. php artisan migrate
+7. php artisan serve and npm run dev
+8. localhost:8000

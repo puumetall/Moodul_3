@@ -14,8 +14,8 @@
 </head>
 <body>
     <section class="hero bg">
-      <nav class="navbar">
-        <div class="container">
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid mx-lg-4">
             <a class="navbar-brand ms-3" href="#">
                 <img src="images/Jaxa_logo.png" alt="jaxa logo" class="pe-3 align-middle img-fluid">
                 <img src="images/SP-247_logo.png" alt="sp-247 logo" class="ps-3 align-middle img-fluid">
@@ -252,13 +252,13 @@
                     </div>
                   </div>  
                 <div class="mission_right align-self-start">
-                    <div class="emblem_photo reveal fade-bottom"><img src="assets/emblem.png" alt=""></div>
+                    <div class="emblem_photo reveal fade-bottom"><img src="images/emblem.png" alt=""></div>
                     
                 </div>  
             </div>
         </div>
         <div class="emblem_mockup container d-flex">
-            <img class="img-fluid" src="assets/emblem_mockup.png" alt="">
+            <img class="img-fluid" src="images/emblem_mockup.png" alt="">
         </div>
         <section class="footer">
             <!-- Remove the container if you want to extend the Footer to full width. -->
@@ -272,9 +272,9 @@
               <!--Grid column-->
               <div class="col-xl col-md-6 p-3 d-flex justify-content-between" >
                 <div class="d-flex justify-content-between mb-4 " style=" height: 150px;">
-                    <img src="assets/SP-247_logo.png" height="70" alt=""
+                    <img src="images/SP-247_logo.png" height="70" alt=""
                     loading="lazy" />
-                    <img src="assets/Jaxa_logo.png" height="70" alt=""
+                    <img src="images/Jaxa_logo.png" height="70" alt=""
                     loading="lazy" />    
                 </div>
                 <div class="ps-3">
@@ -334,7 +334,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 </html>
